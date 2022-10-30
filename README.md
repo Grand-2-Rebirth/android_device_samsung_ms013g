@@ -14,5 +14,7 @@ Device configuration for Samsung Galaxy Grand 2 Duos
  Display      | 720 x 1280 pixels, 5.25 inches, TFT capacitive touchscreen (~280 ppi pixel density)
  Rear Camera  | 8 MP, f/2.4, 31mm (standard), AF, LED flash
  Front Camera | 1.9 MP
+ 
 
-![Samsung Galaxy Grand 2 Duos](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-grand-2-1.jpg "Samsung Galaxy Grand 2 Duos")
+<img src="https://user-images.githubusercontent.com/88838071/198887525-57d903f2-9674-44bd-b213-6d0d767f686a.png" width="400"> 
+
