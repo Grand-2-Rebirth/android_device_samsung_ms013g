@@ -30,3 +30,5 @@ PRODUCT_DEVICE := ms013g
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := Galaxy Grand 2
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
