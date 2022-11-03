@@ -16,6 +16,7 @@
 #Fix Build
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # inherit from common ms01
 include device/samsung/ms01-common/BoardConfigCommon.mk
