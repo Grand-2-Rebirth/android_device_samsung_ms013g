@@ -15,11 +15,18 @@
 # limitations under the License.
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
-
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_mini_go_phone.mk)
+
+# Common Android Go configurations
+$(call inherit-product, build/target/product/go_defaults.mk)
+
+# GMS
+WITH_GMS := true
+WITH_GMS_GO := true
 
 # Inherit from ms01 device
 $(call inherit-product, device/samsung/ms013g/device.mk)
@@ -30,5 +37,4 @@ PRODUCT_DEVICE := ms013g
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-G7012
-
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
