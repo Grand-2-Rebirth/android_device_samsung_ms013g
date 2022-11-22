@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ms013g.mk
+    $(LOCAL_DIR)/aosp_ms013g.mk
     
 COMMON_LUNCH_CHOICES := \
-    lineage_ms013g-user \
-    lineage_ms013g-userdebug \
-    lineage_ms013g-eng
+    aosp_ms013g-user \
+    aosp_ms013g-userdebug \
+    aosp_ms013g-eng
