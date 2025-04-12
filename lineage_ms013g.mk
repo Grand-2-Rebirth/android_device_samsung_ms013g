@@ -16,19 +16,12 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_go_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
 
-# Common Android Go configurations
-$(call inherit-product, build/target/product/go_defaults.mk)
-
-# GMS
-WITH_GMS := true
-WITH_GMS_GO := true
-
-# Inherit from ms01 device
+# Inherit from ms013g device
 $(call inherit-product, device/samsung/ms013g/device.mk)
 
 # Set those variables here to overwrite the inherited values.
